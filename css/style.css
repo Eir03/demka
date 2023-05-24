@@ -1,0 +1,29 @@
+@font-face{
+    font-family: "Hussar";
+    src: url("../media/fonts/hussar-font/HussarBoldObliqueThree-0ryr.otf");
+}
+*{
+    font-family: 'Hussar';
+}
+.carousel-caption{
+    color: rgb(165, 152, 152);
+}
+.carousel-control-next-icon{
+    background-color: gray;
+}
+.carousel-control-prev-icon{
+    background-color: gray;
+}
+.msg{
+    border: 2px solid rgba(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.img-carousel{
+    object-fit: contain;
+}
+.input_div, .ru, .en, .pass{
+    display: none;
+}
